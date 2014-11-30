@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserRegiserServlet</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.UserRegiserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>as</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.as</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MainServelet</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.MainServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExaminationServelet</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.ExaminationServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getwhatisC</servlet-name>
+    <servlet-class>test.getwhatisC</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegiserServlet</servlet-name>
+    <url-pattern>/UserRegiserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as</servlet-name>
+    <url-pattern>/as</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainServelet</servlet-name>
+    <url-pattern>/MainServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExaminationServelet</servlet-name>
+    <url-pattern>/ExaminationServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getwhatisC</servlet-name>
+    <url-pattern>/getwhatisC</url-pattern>
+  </servlet-mapping>
+
+</web-app>
