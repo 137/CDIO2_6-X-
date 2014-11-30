@@ -27,6 +27,11 @@
     <servlet-name>getwhatisC</servlet-name>
     <servlet-class>test.getwhatisC</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>CFunctionServlet</servlet-name>
+    <servlet-class>fjnu.edu.Study.Controll.CFunctionServlet</servlet-class>
+  </servlet>
+
 
 
 
@@ -56,6 +61,10 @@
   <servlet-mapping>
     <servlet-name>getwhatisC</servlet-name>
     <url-pattern>/getwhatisC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CFunctionServlet</servlet-name>
+    <url-pattern>/CFunctionServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
